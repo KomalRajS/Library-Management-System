@@ -1,0 +1,374 @@
+
+/*
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com
+Twitter: @rich_clark
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;  
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+
+
+/********      Main styling code starts here       *********/
+
+
+.wrapper{
+    height: 660px;
+    width: 1360px;
+}
+
+header{
+    height: 150px;
+    width:1360px;
+    background-color: black;
+}
+
+
+
+
+section{
+    height: 428px;
+    width: 1360px;
+}
+
+section .index_section{
+    background-image: url(images/library.jpg);
+    background-repeat: no-repeat;
+    background-size: 1360px 428px;
+}
+
+
+footer{
+    height: 82px;
+    width: 1360px;
+    background-color: black;
+}
+
+nav{
+    float: right;
+    word-spacing: 40px;
+    padding: 30px;
+}
+
+li a{
+    text-decoration: none;
+    color: white;
+}
+
+li a:hover{
+    color: #f3f2f8;
+    background-color: #FC4A1A;
+}
+
+nav li{
+    display: inline-block;
+    line-height: 80px;
+}
+
+.logo{
+    float: left;
+    padding-left: 40px;
+}
+
+.logo img{
+    padding-left: 55px;
+}
+
+.box{
+    height: 220px;
+    width: 450px;
+    margin-top: 0%;
+    margin-left: 440px;
+    background-color: #2b2929;
+    opacity: .6;
+    color:rgb(177, 245, 19) ;
+}
+
+
+/***  styling for student_login  ***/
+
+
+
+.login_img{
+    float: left;
+    width: 815px;
+    height: 428px;
+    background-image: url(images/login_img.png);
+    background-repeat: no-repeat;
+    background-size: 800px 428px;
+    padding: 0%;
+}
+
+
+.login_form{
+    word-spacing: normal;
+    color: white;
+    padding: 0%;
+    float: right;
+    background-color: rgb(5, 5, 83);
+    width: 545px;
+    height: 428px;
+    
+}
+
+input{
+    height: 25px;
+    width: 300px;
+}
+
+.login_writing{
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+
+.signup_bg{
+    height: 628px;
+    width: 1360px;
+    background-repeat: no-repeat;
+    background-image: url(images/signup.jpg);
+    background-size: 1360px 628px;
+   
+}
+
+.addbook_bg{
+    height: 628px;
+    width: 1360px;
+    background-repeat: no-repeat;
+    background-image: url(images/book_backround.avif);
+    background-size: 1360px 628px;
+   
+}
+
+.fine_bg{
+    height: 708px;
+    width: 1360px;
+    background-repeat: no-repeat;
+    background-image: url(images/fine_background.png);
+    background-size: 1360px 708px;
+}
+
+.sidenav{
+    height: 100%;
+    margin-top: 150px;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x:hidden;
+    transition:0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a{
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover{
+    color: #f1f1f1;
+    background-color: darkorange;
+}
+
+.sidenav .closebtn{
+    position:absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+#main {
+    transition: margin-left .5s;
+    padding:16px;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}    
+}
+
+.signup_left{
+    word-spacing: normal;
+    float: left;
+    background-color: #f3f0ed;
+    opacity: .6;
+    height: 528px;
+    width: 415px;
+    margin-left: 265px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 0%;
+}
+
+.signup_form{
+    float:right;
+    background-color: #070707;
+    opacity: .6;
+    height: 528px;
+    width: 415px;
+    margin-right: 265px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 0%;
+    color: white;
+}
+
+.signup_writing{
+    word-spacing: normal;
+    width: 400px;
+    height: 330px;
+    margin-top: 50px;
+    margin-left: 50px;
+    color: white;
+}
+
+.addbook_writing {
+    word-spacing: normal;
+    width: 400px;
+    height: 330px;
+    margin-top: 50px;
+    margin-left: 50px;
+    color: white;
+}
+
+.signup_left_writing{
+    color: darkblue;
+    height: 114px;
+    width: 400px;
+    margin-top: 0px;
+
+}
+
+::placeholder{
+    opacity: 1;
+    color:#000;
+    font-weight: bolder;
+}
+
+.book_background{
+    margin-top: 0%;
+    padding: 0%;
+    background-image: url(images/book_background.jpg);
+    background-repeat: no-repeat;
+    background-size: 1360px 628px;
+}
+
+.books_list{
+    height: 100px;
+    width: 530px;
+
+    margin-right: 400px; 
+    margin-left: 400px; 
+}
+
+input{
+    color:#030303;
+    
+}
+
+
+
+
